@@ -75,5 +75,6 @@ public class Demo2 {
 
         System.out.println("Total Ages:" + totalAge);
         System.out.println("Avg Ages: " + avg);
+        System.out.println("Nice One");
     }
 }
