@@ -26,20 +26,3 @@ public class ExceptionDemo {
         System.out.println("Programs end");
     }
 }
-
-// Throwable is a super class of all the exceptions:
-//1. Exception: -> Super class of all the exceptions
-//        Sub Class: (File not found, Error exception, SQL exceptions)
-//2. Errors (Unchecked)
-//        index out of bound,divisions by 0.
-//
-//3.
-//Handelling:
-//1. Should be specific
-//2. should be handeled centralised (only one place to handel the errors
-//        like main)
-//3. by keywords: try, catch, throws, finally
-//
-//types of exceptions:
-//1. System defined exceptions: automattically called, no need to throw.class
-//2. User defined: User can create own errors
